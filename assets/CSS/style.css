@@ -3,7 +3,25 @@ body{
     color: #4b4e51;
 }
 
+header{
+    background: url("../Images/background.jpg");
+    background-repeat: repeat-x;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#name{
+    background: white;
+    height: 40px;
+    width: 200px;
+    border: 2px solid #4b4e51;
+    padding: 5px;
+    text-align: center;
+}
+
 .nav{
+    margin-top:20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     float: right;
     display: block;
@@ -21,13 +39,46 @@ a{
 a:hover {
     color: #858185;
   }
-
-  .main{
-      display: grid;
+/*
+  .about{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
  
   }
+*/
 
+.about{
+    display: flex-inline;
+}
   #copyright{
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+  }
+  
 
+  #project{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 200px;
+    padding: 100px;
+      
+  }
+
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+  .socialMedia{
+      width: 20px;
+      height: 20px;
+  }
+
+  footer{
+    background: url("../Images/back.jpg");
+    background-repeat: repeat-x;
+    height: 100px;
   }
