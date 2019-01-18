@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>about</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="icon" type="image/jpeg" href="./assets/Images/icon.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Mallanna" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Olha Melska</h1>
+        <h1 id="name">Olha Melska</h1>
     </header>
     <nav>
         <div class="nav">
-            <a href="./contact.html">Contact |</a>
+            <a href="./contact.html" id="selected">Contact |</a>
         </div>
         <div class="nav">
             <a href="./portfolio.html">Portfolio |</a>
@@ -26,7 +29,7 @@
     <main>
         <section>
             <h2>Contact</h2>
-            <form>
+            <form class="contact">
                 <h3>Name:</h3>
                 <input type="text" name="name" placeholder="John Smith">
                 <h3>Email:</h3>

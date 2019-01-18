@@ -1,23 +1,33 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Mallanna', sans-serif;
     color: #4b4e51;
 }
 
 header{
-    background: url("../Images/background.jpg");
+    background: url("../Images/back.jpg");
     background-repeat: repeat-x;
-    height: 100px;
+    background-position: center top;
+    background-size: cover;
+    height: 160px;
     padding-top: 20px;
     padding-left: 50px;
 }
 
+h2{
+    font-size: 25px;
+}
+
 #name{
+    font-family: 'Libre Barcode 128 Text', cursive;
     background: white;
-    height: 40px;
+    height: 50px;
     width: 200px;
-    border: 2px solid #4b4e51;
+    position: absolute;
+    top: 50px;
+    left: 90px;
     padding: 5px;
     text-align: center;
+    font-size: 28px;
 }
 
 .nav{
@@ -25,7 +35,7 @@ header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     float: right;
     display: block;
-    font-size: 20px;
+    font-size: 22px;
     padding-right: 30px;
     text-decoration: none;
     text-align: right;
@@ -39,22 +49,34 @@ a{
 a:hover {
     color: #858185;
   }
-/*
-  .about{
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
- 
-  }
-*/
+#selected{
+    color: #1f1e1f;
+    text-shadow: 2px 2px #d1d1d1;
+}
 
 .about{
-    display: flex-inline;
+    float: left;
+    padding: 20px;
 }
+
+.paragraph{
+    padding: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
   #copyright{
-      display: flex;
-      justify-content: center;
-      padding-top: 20px;
+    color: #4b4e51;
+    text-align: center;
+    background: #fff;
+    height: 20px;
+    width: 180px;
+    padding: 5px;
+    position: relative;
+    top: 60px;
+    left: 650px;
+
   }
   
 
@@ -68,17 +90,38 @@ a:hover {
   }
 
 main{
+    margin-top: 80px;
     margin-left: 150px;
-    margin-right: 150px;
+
 }
+
+
 
   .socialMedia{
       width: 20px;
       height: 20px;
   }
 
+  .contact{
+      border: 2px solid #2e2d2e;
+      width: 500px;
+      padding: 20px;
+  }
+
   footer{
+    clear: both;
+    margin-top: 20px;
     background: url("../Images/back.jpg");
     background-repeat: repeat-x;
-    height: 100px;
+    background-size: cover;
+    background-position: center bottom;
+    height: 160px;
+    display: block;
+    justify-content: center;
+
+  }
+
+  .projectImages{
+      width: 200px;
+      height: 200px;
   }
