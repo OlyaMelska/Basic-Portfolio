@@ -1,5 +1,5 @@
 body{
-    font-family: 'Mallanna', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: #4b4e51;
 }
 
@@ -14,12 +14,13 @@ header{
 }
 
 h2{
-    font-size: 25px;
+    font-size: 36px;
 }
 
 #name{
     font-family: 'Libre Barcode 128 Text', cursive;
     background: white;
+    color: #1f1e1f;
     height: 50px;
     width: 200px;
     position: absolute;
@@ -27,12 +28,15 @@ h2{
     left: 90px;
     padding: 5px;
     text-align: center;
-    font-size: 28px;
+    font-size: 50px;
+}
+
+#bold{
+    font-weight: bolder;
 }
 
 .nav{
     margin-top:20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     float: right;
     display: block;
     font-size: 22px;
@@ -49,9 +53,10 @@ a{
 a:hover {
     color: #858185;
   }
+
 #selected{
-    color: #1f1e1f;
-    text-shadow: 2px 2px #d1d1d1;
+    /* text-shadow: 2px 2px #d1d1d1; */
+    font-weight: bold;
 }
 
 .about{
@@ -59,9 +64,18 @@ a:hover {
     padding: 20px;
 }
 
+.right{
+    float: right;
+    padding-right: 50px;
+}
+
+#laptop{
+    width: 500px;
+    height: 250px;
+}
+
 .paragraph{
     padding: 20px;
-    font-family: 'Gloria Hallelujah', cursive;
     line-height: 25px;
     letter-spacing: 0.2px;
 }
@@ -85,8 +99,12 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 200px;
-    padding: 100px;
-      
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .projects{
+      font-weight: bold;
   }
 
 main{
@@ -106,6 +124,8 @@ main{
       border: 2px solid #2e2d2e;
       width: 500px;
       padding: 20px;
+      background: #1f1e1f;
+      color: #d1d1d1;
   }
 
   footer{
@@ -125,3 +145,15 @@ main{
       width: 200px;
       height: 200px;
   }
+
+input, textarea{
+    width: 300px;
+}
+
+textarea{
+    height: 80px;
+}
+
+ul{
+    padding-left: 20px;
+}
